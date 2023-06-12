@@ -8,7 +8,7 @@ const modelSchema = new mongoose.Schema({
     Images: [Object],
     dateCreated: Date,
     title: String,
-    price: number,
+    price: Number,
     priceNegotiable: Boolean,
     description: String,
     views: Number,
