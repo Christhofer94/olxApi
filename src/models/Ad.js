@@ -5,7 +5,7 @@ const modelSchema = new mongoose.Schema({
     idUser: String,
     State: String,
     Category: String,
-    Images: [Object],
+    images: [Object],
     dateCreated: Date,
     title: String,
     price: Number,
